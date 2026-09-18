@@ -33,7 +33,7 @@ export default function LandingPage() {
               <GraduationCap className="w-4 h-4 text-white" />
             </div>
             <span className="font-extrabold text-gray-900 dark:text-white text-base">
-              USS <span className="text-primary-600 font-medium text-sm">Portal</span>
+              ScholarFind <span className="text-primary-600 font-medium text-sm">Portal</span>
             </span>
           </div>
           <div className="flex items-center gap-2">
@@ -147,4 +147,5 @@ export default function LandingPage() {
     </div>
   );
 }
+
 

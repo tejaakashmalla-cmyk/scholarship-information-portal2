@@ -22,7 +22,7 @@ export default function ResultsPage() {
     const load = async () => {
       try {
         const { data } = await eligibilityAPI.getResults();
-        setResults(data);
+        setResults(data.data);
       } catch {/* ignore */} finally {
         setLoading(false);
       }
@@ -147,3 +147,4 @@ export default function ResultsPage() {
     </div>
   );
 }
+
